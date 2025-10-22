@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        severity: {
+          healthy: "hsl(var(--severity-healthy))",
+          mild: "hsl(var(--severity-mild))",
+          moderate: "hsl(var(--severity-moderate))",
+          severe: "hsl(var(--severity-severe))",
+        },
+      },
+      boxShadow: {
+        'sm': 'var(--shadow-sm)',
+        'md': 'var(--shadow-md)',
+        'lg': 'var(--shadow-lg)',
+      },
+      backgroundImage: {
+        'gradient-subtle': 'var(--gradient-subtle)',
       },
       borderRadius: {
         lg: "var(--radius)",
